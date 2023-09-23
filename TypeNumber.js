@@ -22,3 +22,25 @@ console.log(operacaoMatematica2);
 const teste = "Teste";
 
 console.log(num1 * teste);
+
+
+// null
+let input = null;
+
+if (input === null) {
+ console.log('não há informação');
+} else {
+ console.log(input);
+}
+
+//undefined
+let input1 = null;
+let input2;
+
+console.log(input1); // null
+console.log(input2); // undefined
+
+//resultados de operações em variáveis
+const soma = 10 + 10;
+const multiplicacao = 10 * 10;
+const operacao = (soma + multiplicacao) + 10;
